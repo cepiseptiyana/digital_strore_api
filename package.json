@@ -1,13 +1,11 @@
 {
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon local.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "mysql2": "^3.14.1",
-    "nodemon": "^3.1.10",
-    "serverless-http": "^3.2.0"
+    "nodemon": "^3.1.10"
   }
 }
