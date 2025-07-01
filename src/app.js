@@ -7,6 +7,7 @@ const orderRoutes = require("./routes/orders.route.js");
 const paymentsRoutes = require("./routes/payments.route.js");
 
 app.use(express.json());
+
 // users
 app.use("/api/users", userRoutes);
 app.use("/api/products", productRoutes);
