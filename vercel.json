@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "expressApi/index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "expressApi/index.js" }]
+  "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "./index.js" }]
 }
